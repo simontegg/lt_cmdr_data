@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-hetzner",
+  "main": "index.ts",
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/hcloud": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

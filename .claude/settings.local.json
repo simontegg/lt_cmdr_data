@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(openclaw config get:*)",
+      "Bash(openclaw models list --help:*)",
+      "Bash(openclaw models status:*)",
+      "Bash(openclaw setup:*)",
+      "Bash(openclaw models auth paste-token:*)",
+      "Bash(openclaw docs:*)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "Bash(ssh:*)"
+    ]
+  }
+}
