@@ -1,0 +1,16 @@
+{
+  "id": "media-sanitizer",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "maxBase64Chars": {
+        "type": "number",
+        "description": "Base64 image blocks larger than this are replaced with a placeholder (default: 1000)"
+      },
+      "maxFileBlockChars": {
+        "type": "number",
+        "description": "Inline <file> blocks larger than this are truncated (default: 2000)"
+      }
+    }
+  }
+}
